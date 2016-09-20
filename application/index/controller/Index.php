@@ -4,7 +4,8 @@ namespace app\index\controller;
 class Index
 {
     public function index()
-    {
-        return 'Hello World!';
+    {	
+    	$hello = 'Hello World!';
+        return $hello;
     }
 }
